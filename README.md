@@ -50,3 +50,16 @@ To prepare the dataset for analysis, I used a Common Table Expression (CTE) to c
 
 In this query, I aimed to identify the top 10 patient groups with the highest risk of early readmission. To achieve this, I first created a demographic_group by combining age, gender, and race, allowing for detailed segmentation. Using this new group, I calculated the total number of patients, their average hospital stay, and the early readmission rate for each primary diagnosis. To ensure the results were statistically significant, I used a HAVING clause to filter for only those groups with 50 or more patients. The final output, ordered from highest to lowest readmission rate, pinpoints the specific patient segments and diagnoses that require the most attention, such as Caucasian females aged 20-30 with a primary diagnosis of diabetes (250.13), who have a readmission rate of nearly 39%.
 
+# Key Findings
+- Younger and middle-aged women are at higher risk. Patients recorded as female between the ages of 30 and 50, particularly those identified as Caucasian or African American, had the highest early readmission rates. While the average length of hospital stay across all patients was 4.4 days, some of these higher-risk groups were discharged sooner, with 4 out of the top 10 groups falling below the average. This raises important questions about early discharge practices or gaps in post-discharge support for certain patient populations.
+- 8 of the 10 highest-risk groups were women While this doesn’t prove causation, it aligns with broader evidence that women’s health concerns may sometimes be under-recognized or undertreated. This raises important questions about how symptoms are evaluated, how care plans are designed, and whether follow-up care adequately supports female patients.
+- Older patients showed moderate risk Although older adults (60+) weren’t predominant in the top 10 list, they still showed meaningful early readmission rates, suggesting age-related differences in care strategies also deserve attention.
+
+💙 Care Opportunity: Given that 8 of the 10 highest-risk groups were women, targeted interventions may help reduce early readmissions. 
+
+Examples include:
+
+Enhanced discharge counseling
+Proactive follow-up within the first 1–2 weeks
+Remote monitoring or check-in programs for high-risk groups
+
