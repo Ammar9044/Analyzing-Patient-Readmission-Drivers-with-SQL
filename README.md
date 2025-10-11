@@ -3,7 +3,7 @@ The Revolving Door: An Analysis of Hospital Readmissions
 
 ---
 
-## Business Questions: An SQL-Driven Inquiry
+## Key Questions: An SQL-Driven Inquiry
 1. Readmission Analysis by Demographics
 - Which patient age groups and genders are most frequently readmitted?
 - How do readmission rates compare across different patient races?
