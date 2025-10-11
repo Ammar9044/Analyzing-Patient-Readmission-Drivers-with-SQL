@@ -96,3 +96,24 @@ This query explores the relationship between the number of medications prescribe
 
 To understand which health issues are most prevalent across different stages of life, I wrote an advanced SQL query to identify the top three primary diagnoses for each age group. This was a multi-step process: first, I used a Common Table Expression (CTE) to count the frequency of each diagnosis within every age bracket. Then, in a second CTE, I utilized the RANK() window function to assign a rank to each diagnosis based on its frequency, partitioning the data by age so the ranking would restart for each new age group. The final query filters these results to display only the top three ranked diagnoses for each age bracket. This analysis reveals important patterns, such as the prevalence of specific diabetes-related codes (like 250.13 and 250.11) among younger patients, while different conditions become more common in older populations.
 
+## Key Findings and Suggestions (Ending Notes)
+
+- Certain groups of people, like young women with diabetes, are much more likely to return to the hospital.
+ Idea: We should give these specific high-risk groups extra help and a special care plan after they leave.
+
+- A person's race isn't the main reason they come back; it's more about the common health problems in their community.
+ Idea: We should focus on treating the specific illnesses that are common, no matter who the patient is.
+
+- The more medicines a person takes, the more likely they are to be readmitted to the hospital.
+ Idea: A pharmacist should double-check the medicines for anyone taking a lot of them to make their routine simpler and safer.
+
+- A long hospital stay doesn't automatically mean a patient will come back. It usually just means they were very sick in the first place.
+ Idea: If a patient has a long stay, we should be extra careful when planning their care for when they go home.
+
+- Younger patients most often have diabetes, while older patients usually have heart or breathing problems.
+ Idea: We should create easy-to-understand guides for different age groups about their most common health issues.
+
+---
+
+
+
