@@ -43,4 +43,9 @@ Before analysis, I used SQL (via MySQL Workbench) to clean and reshape the datas
 
 To prepare the dataset for analysis, I used a Common Table Expression (CTE) to create a temporary, cleaned-up version of the patient data. Within this CTE, I engineered two new features using CASE statements to make the data more useful. First, I created an early_readmit_flag which assigns a 1 to patients readmitted within 30 days and a 0 to all others, turning a text field into a numeric flag for easier calculations. Second, I created a stay_duration_bucket to categorize the length of each patient's hospital stay into meaningful groups like 'Short Stay', 'Moderate Stay', and 'Extended Stay'. This process of transforming and organizing the data is a crucial first step that enables more effective and straightforward analysis of key patient attributes.
 
+<img width="464" height="517" alt="222" src="https://github.com/user-attachments/assets/06178ca5-40ed-4a81-a93d-2139a5c5b165" />
+
+<img width="502" height="241" alt="222 result" src="https://github.com/user-attachments/assets/cdb88817-e612-4652-8fca-f648fc0b5ac8" 
+
+In this query, I aimed to identify the top 10 patient groups with the highest risk of early readmission. To achieve this, I first created a demographic_group by combining age, gender, and race, allowing for detailed segmentation. Using this new group, I calculated the total number of patients, their average hospital stay, and the early readmission rate for each primary diagnosis. To ensure the results were statistically significant, I used a HAVING clause to filter for only those groups with 50 or more patients. The final output, ordered from highest to lowest readmission rate, pinpoints the specific patient segments and diagnoses that require the most attention, such as Caucasian females aged 20-30 with a primary diagnosis of diabetes (250.13), who have a readmission rate of nearly 39%.
 
