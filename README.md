@@ -79,4 +79,12 @@ Older adults are overrepresented among patients with the longest hospital stays.
 
 This query was designed to determine if a patient’s prior admission history is a strong predictor of early readmission. I created a repeat_flag to segment patients into two groups: 'Single Admission' for those with no prior inpatient visits and 'Repeat Visitor' for those with at least one. After grouping the data, I calculated the early readmission rate for each category. The results are compelling: 'Repeat Visitors' have an early readmission rate of 21.40%, which is more than double the 9.44% rate for patients admitted for the first time. This analysis clearly demonstrates that a patient's history as a repeat visitor is a significant risk factor for being readmitted within 30 days.
 
+## Medications and Readmission Trend
+
+
+<img width="298" height="199" alt="med 1" src="https://github.com/user-attachments/assets/a5c3b0b5-ad99-46cb-84c6-285ca7e3afd8" />
+
+<img width="232" height="294" alt="med" src="https://github.com/user-attachments/assets/359aa5c6-26df-4ba8-8166-7e923698bc7d" />
+
+This query explores the relationship between the number of medications prescribed to a patient and their likelihood of an early readmission. By grouping patients based on the total count of medications they received, I calculated the average early readmission rate for each distinct count. The results, ordered from highest to lowest rate, reveal a compelling trend. Patients on an extremely high number of medications (such as 72 or 81) have a disproportionately high readmission rate, in some cases reaching 100%. This suggests that the complexity of a patient's medication regimen is a critical risk factor, and patients with a high number of prescriptions may require more intensive follow-up care to prevent readmission.
 
