@@ -33,6 +33,8 @@ Before analysis, I used SQL (via MySQL Workbench) to clean and reshape the datas
 - Creating New Columns: I created new variables that flagged early readmissions, grouped patients by stay duration, and combined demographic attributes into a single label. These additions helped simplify comparisons and surface trends across different patient groups.
 - Creating CTE's: To keep my SQL logic organized and readable, I used Common Table Expressions (CTEs) to structure intermediate steps like filtering, flag creation, and ranking.
 
+  ---
+
   # Stories the Data Uncovered
 
 
