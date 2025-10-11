@@ -3,6 +3,11 @@ The Revolving Door: An Analysis of Hospital Readmissions
 
 ---
 
+## About the Dataset & Tools
+This project uses a publicly available dataset from Kaggle (find it here), containing 10 years of hospital encounter data (1999–2008) from 130 U.S. hospitals. It includes over 100,000 anonymized records of patients with diabetes, capturing demographics, lab results, medications, length of stay, and outcomes.
+
+---
+
 ## Key Questions: An SQL-Driven Inquiry
 1. Readmission Analysis by Demographics
 - Which patient age groups and genders are most frequently readmitted?
