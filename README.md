@@ -28,8 +28,8 @@ This project uses a publicly available dataset from Kaggle (find it here), conta
 ## Data Preparation
 Before analysis, I used SQL (via MySQL Workbench) to clean and reshape the dataset. This was especially helpful for:
 
-Fixing Column Types: Some numeric fields like time_in_hospital were stored as text (VARCHAR). I used the ALTER TABLE function to convert them to INT so they could be used in calculations.
-Performing Table Joins: I merged patient demographics and hospital stay details using a common patient ID to create a unified dataset.
-Creating New Columns: I created new variables that flagged early readmissions, grouped patients by stay duration, and combined demographic attributes into a single label. These additions helped simplify comparisons and surface trends across different patient groups.
-Creating CTE's: To keep my SQL logic organized and readable, I used Common Table Expressions (CTEs) to structure intermediate steps like filtering, flag creation, and ranking.
+- Fixing Column Types: Some numeric fields like time_in_hospital were stored as text (VARCHAR). I used the ALTER TABLE function to convert them to INT so they could be used in calculations.
+- Performing Table Joins: I merged patient demographics and hospital stay details using a common patient ID to create a unified dataset.
+- Creating New Columns: I created new variables that flagged early readmissions, grouped patients by stay duration, and combined demographic attributes into a single label. These additions helped simplify comparisons and surface trends across different patient groups.
+- Creating CTE's: To keep my SQL logic organized and readable, I used Common Table Expressions (CTEs) to structure intermediate steps like filtering, flag creation, and ranking.
 
