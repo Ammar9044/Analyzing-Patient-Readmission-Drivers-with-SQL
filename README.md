@@ -88,3 +88,12 @@ This query was designed to determine if a patient’s prior admission history is
 
 This query explores the relationship between the number of medications prescribed to a patient and their likelihood of an early readmission. By grouping patients based on the total count of medications they received, I calculated the average early readmission rate for each distinct count. The results, ordered from highest to lowest rate, reveal a compelling trend. Patients on an extremely high number of medications (such as 72 or 81) have a disproportionately high readmission rate, in some cases reaching 100%. This suggests that the complexity of a patient's medication regimen is a critical risk factor, and patients with a high number of prescriptions may require more intensive follow-up care to prevent readmission.
 
+## How Diabetes Diagnosis Codes Reveal Age-Specific Challenges
+
+
+<img width="283" height="388" alt="type" src="https://github.com/user-attachments/assets/634a76b9-4f7d-4237-b782-747092cd7522" />
+
+<img width="298" height="302" alt="type 1" src="https://github.com/user-attachments/assets/c592341b-705b-4322-b500-3521e8c63108" />
+
+To understand which health issues are most prevalent across different stages of life, I wrote an advanced SQL query to identify the top three primary diagnoses for each age group. This was a multi-step process: first, I used a Common Table Expression (CTE) to count the frequency of each diagnosis within every age bracket. Then, in a second CTE, I utilized the RANK() window function to assign a rank to each diagnosis based on its frequency, partitioning the data by age so the ranking would restart for each new age group. The final query filters these results to display only the top three ranked diagnoses for each age bracket. This analysis reveals important patterns, such as the prevalence of specific diabetes-related codes (like 250.13 and 250.11) among younger patients, while different conditions become more common in older populations.
+
