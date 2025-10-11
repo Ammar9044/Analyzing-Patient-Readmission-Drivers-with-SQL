@@ -63,3 +63,10 @@ Enhanced discharge counseling
 Proactive follow-up within the first 1–2 weeks
 Remote monitoring or check-in programs for high-risk groups
 
+## Patient Groups with the Longest Average Length of Stay
+
+<img width="478" height="225" alt="Len" src="https://github.com/user-attachments/assets/b1541168-f308-45b4-a052-b2934b87ec87" />
+
+Older adults are overrepresented among patients with the longest hospital stays. The top 10 groups with the highest average length of stay were primarily patients aged 60 and above, suggesting that aging populations face more complex and prolonged care journeys. Rehabilitative care plays a central role. A majority of these groups shared diagnosis code V57, typically associated with rehabilitation services. This indicates that long stays are often linked not just to acute illness, but to recovery and transitional care needs.
+
+
