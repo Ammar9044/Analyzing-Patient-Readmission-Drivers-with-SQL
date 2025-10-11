@@ -45,7 +45,8 @@ To prepare the dataset for analysis, I used a Common Table Expression (CTE) to c
 
 <img width="464" height="517" alt="222" src="https://github.com/user-attachments/assets/06178ca5-40ed-4a81-a93d-2139a5c5b165" />
 
-<img width="502" height="241" alt="222 result" src="https://github.com/user-attachments/assets/cdb88817-e612-4652-8fca-f648fc0b5ac8" 
+<img width="502" height="241" alt="222 result" src="https://github.com/user-attachments/assets/fa135825-9954-436d-9436-e13aee584cd7" />
+
 
 In this query, I aimed to identify the top 10 patient groups with the highest risk of early readmission. To achieve this, I first created a demographic_group by combining age, gender, and race, allowing for detailed segmentation. Using this new group, I calculated the total number of patients, their average hospital stay, and the early readmission rate for each primary diagnosis. To ensure the results were statistically significant, I used a HAVING clause to filter for only those groups with 50 or more patients. The final output, ordered from highest to lowest readmission rate, pinpoints the specific patient segments and diagnoses that require the most attention, such as Caucasian females aged 20-30 with a primary diagnosis of diabetes (250.13), who have a readmission rate of nearly 39%.
 
