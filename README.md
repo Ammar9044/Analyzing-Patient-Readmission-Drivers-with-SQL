@@ -37,6 +37,8 @@ Before analysis, I used SQL (via MySQL Workbench) to clean and reshape the datas
 
 # Stories the Data Uncovered
 
+## Understanding Vulnerability and Which Patients Face the Most Risk
+
 <img width="524" height="487" alt="Case Statement " src="https://github.com/user-attachments/assets/c2475fc4-26f5-4887-928d-c703aad345d3" />
 
 <img width="623" height="419" alt="Cleaned_Cte" src="https://github.com/user-attachments/assets/285be722-52f5-469a-80f5-601e0909b619" />
