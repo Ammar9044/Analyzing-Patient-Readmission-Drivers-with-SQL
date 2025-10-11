@@ -69,6 +69,8 @@ Remote monitoring or check-in programs for high-risk groups
 
 Older adults are overrepresented among patients with the longest hospital stays. The top 10 groups with the highest average length of stay were primarily patients aged 60 and above, suggesting that aging populations face more complex and prolonged care journeys. Rehabilitative care plays a central role. A majority of these groups shared diagnosis code V57, typically associated with rehabilitation services. This indicates that long stays are often linked not just to acute illness, but to recovery and transitional care needs. This query investigates the demographic and diagnostic factors associated with the longest hospital stays. By grouping patients based on their demographic profile and primary diagnosis, the analysis calculates the total patient count, the average length of stay, and the early readmission rate for each distinct group. The results are then sorted in descending order by the average stay duration. The output clearly identifies the specific patient segments, such as Caucasian females between 80-90 years old with a primary diagnosis code of 'V57', that experience the lengthiest hospitalizations. This insight is valuable for resource planning and for identifying patient groups that might benefit from specialized care protocols aimed at reducing their time in the hospital.
 
+## Recognizing Ongoing Struggles After Discharge
+
 <img width="470" height="384" alt="repeat" src="https://github.com/user-attachments/assets/2fe83aa2-8513-4140-8e74-a4f78602ee5d" />
 
 <img width="325" height="113" alt="rrr" src="https://github.com/user-attachments/assets/f756425d-64e4-422d-b868-f2183ab9038c" />
