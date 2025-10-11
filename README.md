@@ -35,7 +35,7 @@ Before analysis, I used SQL (via MySQL Workbench) to clean and reshape the datas
 
   ---
 
-  # Stories the Data Uncovered
+# Stories the Data Uncovered
 
 
 
